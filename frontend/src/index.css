@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Neucha&family=Spicy+Rice&display=swap');
+@import "tailwindcss";
+
+body {
+    background-color: rgb(13, 13, 14) !important;
+    height: 150vh;
+}
+
+#root {
+    height: 100%;
+}
+
+h1 {
+    a {
+        font-family: "Neucha", sans-serif;
+    }
+}
+
+input {
+    background-color: rgb(240, 239, 239);
+    &:focus {
+        outline: none;
+    }
+}
+
+select {
+    outline: none;
+}
+
+select option{
+    outline: none;
+    border: none;
+}
+
+#mobile-menu {
+    a {
+        min-width: 100%;
+        font-size: large;
+        font-weight:500;
+        font-family: "Montserrat Alternates", sans-serif;
+        color: black;
+    }
+}
+
+form {
+    width: clamp(350px,40%,90%);
+    div {
+        display: block;
+        width: 100%;
+        input {
+            width: 100%;
+        }
+    }
+    button:hover {
+        cursor: pointer;
+    }
+}
+
+.banner-actions {
+    background-color: rgb(13, 13, 14) !important;
+}
+
+.fa-xmark, .fa-bars {
+    cursor: pointer;
+}
